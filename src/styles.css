@@ -1,0 +1,137 @@
+/* This file manage styles of Julia's portfolio*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+    /*700-300-500*/
+} 
+
+body {
+    background-color: #F9F1F0;
+    width: 1440px;
+    height: 1024px;
+    padding: 15px;
+}
+
+/*Styles for header and nav*/
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FADCD9;
+    width: 1392px;
+    height: 101px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.name {
+    width: 157.55px;
+    height: 16.95px;
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+nav li:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    text-shadow: 3px 1px 5px rgb(29, 28, 28);
+}
+
+/*Styles for main*/
+
+.card_1 {
+    margin: 15px 15px 15px 0;
+    padding: 35px;
+    width: 565px;
+    height: 479px;
+    background-color: #FADCD9;
+    border-radius: 17px;
+}
+
+
+.card_3 {
+    width: 448px;
+    height: 351px;
+    background-color: #FADCD9;
+    border-radius: 17px;
+}
+
+.card_4 {
+    margin: 15px;
+    width: 448px;
+    height: 351px;
+    background-color: #F8AFA6;
+    border-radius: 17px;
+}
+
+.card_right {
+    width: 448px;
+    height: 726px;
+    background-color: #FADCD9;
+    border-radius: 17px;
+}
+
+
+.card_bottom {
+    width: 448px;
+    height: 101px;
+    background-color: #FADCD9;
+    border-radius: 17px;
+
+}
+
+
+
+.icon_flower {
+    width: 119.01px;
+    height: 118.97px;
+    display: flex;
+    justify-content: right;
+}
+
+.profile {
+    width: 330px;
+    height: 476px;
+}
+
+.icon_circle {
+    width: 38px;
+    height: 38px;
+}
+
+.hall_pic {
+    width: 399px;
+    height: 269px;
+}
+
+.big_arrow {
+    width: 21.53px;
+    height: 21.53px;
+}
+
+.small_arrow {
+    width: 14.73px;
+    height: 14.73px;
+}
+/*Styles for footer*/
