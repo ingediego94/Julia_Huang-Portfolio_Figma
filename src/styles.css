@@ -35,7 +35,7 @@ body {
     height: 16.95px;
     font-size: 22px;
     font-style: italic;
-    font-weight: normal;
+    font-weight: 200;
 }
 
 .last_name{
@@ -43,7 +43,11 @@ body {
     height: 16.95px;
     font-size: 22px;
     font-style: none;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.last_name:hover {
+    text-shadow: 3px 1px 5px rgb(29, 28, 28);
 }
 
 
@@ -105,7 +109,7 @@ nav li:hover{
     }
 
     .card_2 {
-        grid-column: 6 /  9;
+        grid-column: 6 / 9;
 
         width: 330px;
         height: 476px;
@@ -127,7 +131,13 @@ nav li:hover{
         position: relative;
     }
 
+.right {
+    display: grid;
+    /* grid-template-columns: 3fr; */
+} 
+
 .card_right {
+    /* grid-column:  1 / 3; */
     position: relative;
     width: 448px;
     height: 726px;
@@ -179,9 +189,11 @@ nav li:hover{
 
 .card_3 p {
     position: absolute;
+    width: 296px;
+    height: 150px;
     top: 155px;
     left: 24px;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
 }
 
@@ -247,8 +259,10 @@ nav li:hover{
 
 .card_right hr {
     width: 399px;
+    border: 0;
     border-top: 3px solid #F8AFA6;
     position: absolute;
+    
 }
 
 .hr_musea {
@@ -298,7 +312,7 @@ nav li:hover{
 .card_bottom a {
     
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 250;
     color: black;
 }
 
@@ -306,4 +320,5 @@ nav li:hover{
     cursor: pointer;
     transform: scale(1.09);
     text-shadow: 3px 1px 5px rgb(29, 28, 28);
+    font-weight: 350;
 }
